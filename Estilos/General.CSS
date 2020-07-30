@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    text-align: justify;
+    font-family: Arial;
+}
+
+.header_cls  {
+background: url(../ImagenesPW/fondoAmarillo.jpg)
+}
+.header_cls img{
+    border-radius: 60%;
+    border-right: 0px;
+    display: inline-block ;
+    width: 5%x;
+    margin: 3%;
+}
+.header_cls h1, .header_cls h2{
+   text-align: center;
+}
+.header_cls div{
+    float: right;
+    padding-right: 1%;
+    width: 60%;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: 7%;
+    margin-right: 10%;
+    
+}
+
+.nav_cls{
+    background-color: black;
+}
+.nav_cls li{
+    display: inline-block;
+    padding: 9px;
+}
+.nav_cls a {
+    color: white;
+    text-decoration: none;
+}
+.nav_cls a:hover{
+    background-color: orangered;
+    padding: 10px;
+}
+.main_cls{
+   background-image: linear-gradient(rgb(218, 213, 164), rgb(221, 187, 187));
+   border: 1px solid black;
+   float: left;
+}
+
+.section_cls{
+    float: left;
+    width:75%;
+    margin: 3%;
+}
+.aside_cls{
+    float: right;
+    width: 10%;
+    margin: 2%;
+}
+.footer_cls{
+    background-color: rgb(235, 188, 101);
+}
+
+.table_cls{
+    background-color: blanchedalmond;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%
+}
+th, td{
+    border: solid 1px rgb(11, 48, 11);
+    padding: 20px;
+}
+th{
+    background-color: rgb(235, 108, 49);
+    color: white;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+tr:hover {
+background-color: orangered;
+padding: 10px;
+color: white;
+}
+
+#main_id h3{
+    margin: 4%;
+    text-align: center;
+}
